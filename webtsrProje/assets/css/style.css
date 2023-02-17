@@ -1,0 +1,120 @@
+.body {
+  margin: 0;
+}
+.header,
+.main {
+  width: 100%;
+  float: left;
+}
+.header{
+  display: flex;
+  align-items: center;
+}
+.header .logo{
+    width: 300px;
+    float: left;
+    padding: 20px;
+}
+.header .logo img{
+width: 100%;
+}
+.header .menu {
+  width: 100%;
+  float: left;
+}
+.header .menu .menu-list {
+  list-style: none;
+  float: right;
+ margin-right: 20px;
+}
+.header .menu .menu-list .list-item {
+  display: inline;
+}
+.header .menu .menu-list .list-item .list-link {
+    text-decoration: none;
+    color: rgb(247, 243, 243);
+    padding: 10px 10px;
+    background-color: rgb(4, 61, 4);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: .5rem;
+  }
+  .header .menu .menu-list .list-item .list-link:hover{
+    background-color: greenyellow;
+    color: rgb(4, 61, 4);
+  }
+.slider img{
+  width: 100%;
+  box-shadow: 5px 10px 4px rgb(55, 61, 3);
+}
+  .main .main-category{
+    
+    width: 20%;
+    height: 30%;
+    float: left;
+    margin: 10px;
+    
+  }
+  .main .main-category .main-category-title{
+color: green;
+  }
+  .main .main-category li{
+    list-style-type: none;
+    padding-bottom: 10px;
+  }
+  .main .main-category li a:hover{
+    color: brown;
+  }
+  .main .main-category li a{
+    color: green;
+    font-size: 25px;
+    font-weight: 900px;
+    text-decoration: none;
+  }
+  .main .main-product{
+    width: 70%;
+    float: left;
+    /* background-color: rgb(199, 104, 120); */
+    margin-left: 30px;
+  }
+  .main .main-product h2{
+    font-size: 40px;
+    color: rgb(17, 131, 6);
+  }
+ 
+  .main .main-product-pro div{
+    width: 200px;
+    float: left;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 13px;
+    background-color: rgb(191, 247, 136);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(33, 53, 3);
+
+  }
+  .main .main-product-pro div img{
+    width: 200px;
+    height: 100px;
+    float: left;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 5px rgb(33, 53, 3);
+
+  }
+  .main .main-product-pro div h3{
+    margin-top: 5px;
+  }
+  .main .main-product .main-slider img{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgb(44, 15, 5);
+  }
+  .search img{
+    width: 100%;
+    height: 50%;
+    float: left;
+    box-shadow: 5px 5px 5px rgb(33, 53, 3);
+
+  }

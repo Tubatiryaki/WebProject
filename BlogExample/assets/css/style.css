@@ -1,0 +1,26 @@
+.box1, .box2, .box3{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    float: left; 
+    /* float kutuları yanyana yerleştirir */
+
+}
+.radius-border{ 
+    /* Bu özelliği gidip class kısmına yazarsak bu özelliği her yerde kullanabiliriz */
+    border-radius: 10px;
+    border: 3px black solid;
+}
+.box1{
+    color: white;
+}
+.box2{
+color: black;
+}
+.box3 .paragraf{
+color: rgb(20, 228, 37);
+}
+.box3 .paragraf em{
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,186 @@
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  animation-name: renkDegistir;
+  animation-duration: 5s;
+}
+
+@keyframes renkDegistir {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: green;
+  }
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  animation-name: renkDegistir2;
+  animation-duration: 10s;
+}
+@keyframes renkDegistir2 {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+  }
+}
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  animation-name: renkDegistir3;
+  animation-duration: 10s;
+}
+@keyframes renkDegistir3 {
+  0% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: deeppink;
+  }
+  100% {
+    background-color: black;
+  }
+}
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  animation-name: sekilDegistir;
+  animation-duration: 5s;
+}
+@keyframes sekilDegistir {
+  0% {
+  }
+
+  100% {
+    border-radius: 50%;
+  }
+}
+.box5 {
+  width: 200px;
+  height: 200px;
+  background-color: darkgoldenrod;
+}
+.box5:hover {
+  animation-name: sekilDegistir1;
+  animation-duration: 1s;
+}
+@keyframes sekilDegistir1 {
+  0% {
+  }
+
+  100% {
+    border-radius: 50%;
+  }
+}
+.tuba{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    border: 5px red dashed;
+    border-radius: 50%;
+    animation-name: tubaAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: 10;
+}
+
+@keyframes tubaAnimation{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.dogan{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    border: 5px red dashed;
+    border-radius: 50%;
+    animation-name: doganAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: 10;
+    animation-timing-function: linear;
+}
+
+@keyframes doganAnimation{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.ozge{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    border: 5px red dashed;
+    border-radius: 50%;
+    animation-name: ozgeAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes ozgeAnimation{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.tugba{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    border: 5px red dashed;
+    border-radius: 50%;
+    animation-name: tugbaAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative; /*fixed, absolute, relative*/
+}
+
+@keyframes tugbaAnimation{
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 500px; /*calc(100% - 200px)*/
+        transform: rotate(360deg);
+    }
+    100%{
+        left: 0px;
+        transform: rotate(-360deg);
+    }
+}
+.davut{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    border: 5px black dashed;
+    background-color: red;
+    border-radius: 50%;
+   animation: davutAnimation 3s linear infinite;
+   position:relative;
+}
+
+@keyframes davutAnimation{
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 800px; /*calc(100% - 200px)*/
+        transform: rotate(360deg);
+    }
+    100%{
+        left: 0px;
+        transform: rotate(-360deg);
+    }
+}

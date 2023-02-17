@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+}
+.header,
+.main,
+.main .slider,
+.main .slider .slider-img,
+.divide,
+.footer {
+  width: 100%;
+  float: left;
+}
+.header .logo {
+  width: 100px;
+  float: left;
+}
+.header .logo .logo-img {
+  /* calc işlemi ile matematik işlemleri ekleyebiliriz */
+  width: calc(100% - 40px);
+  margin: 20px;
+}
+.header .menu {
+  width: calc(100% - 200px);
+  float: left;
+}
+.header .menu .menu-list {
+  list-style: none;
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.header .menu .menu-list .list-item {
+  display: inline;
+}
+.header .menu .menu-list .list-item .list-link {
+  text-decoration: none;
+  color: rgb(247, 243, 243);
+  padding: 10px 10px;
+  background-color: rgb(238, 143, 19);
+  font-weight: bold;
+  font-size: 18px;
+}
+.header .menu .menu-list .list-item .list-link:hover {
+  background-color: gold;
+  color: black;
+}
+.main .about,
+.main .blog {
+  width: calc(100% - 100px);
+  float: left;
+  padding: 50px;
+}
+.main .about .about-item {
+  width: 50%;
+  float: left;
+}
+.main .about .about-item .about-item-img {
+  width: 40%;
+  float: left;
+  border-radius: 2px;
+}
+.main .about .about-item .about-item-content {
+  width: calc(60% - 40px);
+  float: left;
+  padding: 0 20px;
+}
+.main .about-item .about-item-content .about-item-title,
+.main .blog .blog-item .blog-item-title {
+  margin-top: 0px;
+  font-size: 25px;
+  color: rgb(238, 143, 19);
+}
+.main .about-item .about-item-content .about-item-text,
+.main .blog .blog-item .blog-item-text {
+  font-size: 18px;
+}
+.main .about .about-item .about-item-content .about-item-link,
+.main .blog .blog-item .blog-item-link {
+  text-decoration: none;
+  background-color: rgb(254, 152, 21);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.main .about .about-item .about-item-content .about-item-link:hover,
+.main .blog .blog-item .blog-item-link:hover {
+  background-color: gold;
+  color: black;
+}
+.main .blog .blog-title {
+  font-size: 18px;
+  color: rgb(195, 119, 14);
+  margin: 0px;
+}
+.divide hr {
+  width: 100%;
+  float: left;
+  border: 3px rgb(195, 119, 14) solid;
+}
+.main .blog .blog-item {
+  float: left;
+  width: calc(33.33% - 20px);
+  padding: 10px;
+}
+.main .blog .blog-item .blog-item-img {
+  width: 100%;
+  border-radius: 4px;
+}
+.footer {
+  background-color: rgb(201, 199, 199);
+}
+.footer .footer-item {
+  width: calc(25% - 30px);
+  padding: 15px;
+  float: left;
+}
+.footer .footer-item .logo {
+  text-align: center;
+}
+.footer .footer-item .logo .footer-logo {
+  width: 150px;
+}
+.footer .footer-item .footer-item-title {
+  font-size: 30px;
+  color: rgb(195, 119, 14);
+  margin: 0px;
+}
+.footer .footer-item .footer-item-text {
+  font-size: 20px;
+}
+.footer .footer-item .footer-item-menu {
+  list-style: none;
+  padding-left: 0px;
+}
+.footer .footer-item .footer-item-menu .menu-item .menu-link {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin: 5px 0px;
+}
+.footer .footer-item .footer-item-menu .menu-item .menu-link:hover {
+  color: white;
+  background-color: rgb(195, 119, 14);
+}
+.footer .footer-item .footer-social-menu {
+  list-style: none;
+}
+.footer .footer-item .footer-social-menu .menu-item {
+  display: inline;
+}
+.footer .footer-item .footer-social-menu .menu-item .menu-link {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(195, 119, 14);
+  padding: 10px;
+  border-radius: 50%;
+}
+.footer .footer-item .footer-social-menu .menu-item .menu-link:hover {
+  color: black;
+  background-color: gold;
+}
+.footer .footer-item table{
+  font-size: 20px;
+}
+.footer .footer-item table tr td:first-child{
+  font-weight: bold;
+
+}
+.footer .footer-item table tr td a{
+  text-decoration: none;
+  color: rgb(195, 119, 14);
+}
+.copyright{
+  background-color: rgb(37, 37, 37);
+  color: white;
+  text-align: center;
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+}
+.copyright p a{
+text-decoration: none;
+color: rgb(195, 119, 14);
+
+}

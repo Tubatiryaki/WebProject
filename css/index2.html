@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /* Internal Css*/
+         /* Selector ile çalışılmalı
+         tag ismi, id, class
+          */
+          label{
+            color: red!important;
+            font-size: 12px;
+
+          }
+          /* All yapısı boşta kalan özellik almamış herşeyi kapsar */
+          *{ 
+            color: blue ;
+          }
+          .form-head{
+            color: darkgoldenrod;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: aqua;
+          }
+          #Username{
+            color: rgb(230, 129, 15);
+          }
+    </style>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <form>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2" class="form-head">Register Form</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> <label for="Username" style="color: chartreuse;">Username</label> </td>
+                    <td><input type="text" id="Username" name="Username" placeholder="Username"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="Email">Email</label> </td>
+                    <td><input type="Email" id="Email" name="Email" placeholder="Email"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="Password">Password</label> </td>
+                    <td><input type="password" id="Password" name="Password" placeholder="Password"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="Name" class="name">Name</label> </td>
+                    <td><input type="text" id="Name" name="Name" placeholder="Name"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="Surname">Surname</label> </td>
+                    <td><input type="text" id="Surname" name="Surname" placeholder="Surname"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="Gender">Gender</label> </td>
+                    <td><label for="Kadın">Kadın</label><input type="radio" id="Kadın" name="Gender" value="Kadın"> </td>Z
+                    <td><label for="Erkek">Erkek</label><input type="radio" id="Erkek" name="Gender" value="Erkek"> </td>Z
+                </tr>
+                <tr>
+                    <td><label for="School">School</label></td>
+                    <td>
+                        <select name="" id="">
+                        <option value="Ön Lisans">Ön Lisans</option>
+                        <option value="Lisans">Lisans</option>
+                        <option value="Yüksek Lisans">Yüksek Lisans</option>
+                        <option value="Doktora">Doktora</option>
+                    </select>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="Birth Date">Birth Date</label></td>
+                    <td><input type="date" id="Birth Date" name="Birth Date"></input></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Hoby</label>
+
+
+                    </td>
+                    <td>
+                        <input type="checkbox" id="KitapOkuma" name="KitapOkuma">
+                        <label for="KitapOkuma">Kitap Okuma"</label>
+
+                        <input type="checkbox" id="Müzik" name="Müzik">
+                        <label for="Müzik">Müzik"</label>
+
+                        <input type="checkbox" id="Resim" name="Resim">
+                        <label for="Resim">Resim"</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Register" style="width: 100%;background-color: blue; color: white;border: aqua ; border-radius: 5px;">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

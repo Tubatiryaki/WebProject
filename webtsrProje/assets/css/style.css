@@ -9,11 +9,10 @@
 .header {
   display: flex;
   align-items: center;
-  background-color: rgb(4, 61, 4);
-  box-shadow: 5px 5px 5px gray;
-  position: sticky;
-  top: 0px;
-  z-index: 10px;
+  background-color: rgb(168, 250, 86);
+  box-shadow: 5px 8px 8px rgb(255, 46, 46);
+
+  z-index: 10px !important;
 }
 .header .logo {
   width: 300px;
@@ -46,11 +45,12 @@
   border-radius: 0.5rem;
 }
 .header .menu .menu-list .list-item .list-link:hover {
-  background-color: greenyellow;
-  color: rgb(4, 61, 4);
+  background-color: red;
+  color: white;
 }
 .slider img {
   width: 100%;
+  margin: 10px;
   /* box-shadow: 5px 10px 4px rgb(55, 61, 3); */
 }
 .main .main-category {
@@ -160,6 +160,16 @@
   margin-bottom: 15px;
   box-shadow: 5px 5px 5px rgb(33, 53, 3);
 }
+.category .main-product-pro h3{
+  color: rgb(4, 61, 4);
+  font-size: 25px;
+
+}
+.category .main-product-pro a{
+ color: red;
+ text-decoration: none;
+ font-size: 18px;
+}
 .main .main-product-pro div a {
   text-decoration: none;
   font-size: 18px;
@@ -172,13 +182,16 @@
 .main .main-product-pro div p {
   font-size: 14px;
 }
-.search img {
+
+.search div img {
   width: 100%;
   height: 50%;
   float: left;
   margin-top: 20px;
   box-shadow: 5px 5px 5px rgb(33, 53, 3);
+
 }
+
 .search input {
   width: 30%;
   height: 50px;
@@ -203,11 +216,11 @@
   padding: 8px 50px;
   position: absolute;
   transform: translate(180%, -200%);
-  text-decoration: none;
   color: white;
   font-size: 30px;
   background-color: rgb(4, 61, 4);
   text-align: center;
+  text-decoration: none;
 }
 .search a:hover {
   background-color: greenyellow;
@@ -218,7 +231,7 @@
   float: left;
 }
 .footer {
-  background-color: green;
+  background-color: rgb(4, 61, 4);
   width: 100%;
   float: left;
   height: 200px;
@@ -237,6 +250,7 @@
 .footer .footer-social-list {
   width: 20%;
   float: left;
+  color: white;
 }
 .footer .footer-logo img {
   width: 120px;
@@ -244,6 +258,7 @@
 }
 .footer .footer-logo h3 {
   margin: 0px;
+  color: rgb(191, 247, 136);
 }
 .footer .footer-logo p {
   margin: 0px;
@@ -264,14 +279,42 @@
   list-style: none;
 }
 
-.footer .footer-menu .footer-menu-list li a {
+.footer .footer-menu .footer-menu-list .list-item a {
   text-decoration: none;
-  color: white;
+  color: rgb(191, 247, 136);
+}
+.footer .footer-menu .footer-menu-list .list-item a:hover{
+  color: red;
 }
 .footer .footer-iletisim {
-  color: blue;
+  color: rgb(191, 247, 136);
   float: left;
   font-size: 20px;
+  margin-left: 40px;
+}
+.footer .footer-iletisim .footer-adress a{
+color: rgb(191, 247, 136);
+text-decoration: none;
+list-style: none;
+}
+.footer .footer-iletisim .footer-adress a:hover{
+  color: red;
+}
+
+.footer .footer-iletisim-social .footer-social-list{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 30px;
+  font-size: 50px;
+  margin-top: 5px;
+  
+}
+.footer .footer-iletisim-social .footer-social-list a{
+  color: rgb(191, 247, 136);
+}
+.footer .footer-iletisim-social .footer-social-list a:hover{
+  color: red;
 }
 
 .copy {
@@ -279,18 +322,4 @@
   width: 100%;
   float: left;
   height: 50px;
-}
-.footer .footer-iletisim .footer-iletisim-item .footer-social-list {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  font-size: 40px;
-  gap: 20px;
-}
-.footer .footer-iletisim .footer-iletisim-social .footer-social-list {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  font-size: 40px;
-  gap: 20px;
 }
